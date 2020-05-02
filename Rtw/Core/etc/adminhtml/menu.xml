@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Rtw_Core::Rtw" title="RTW"
+             module="Rtw_Core" sortOrder="20"
+             dependsOnModule="Rtw_Core" resource="Rtw_Core::Rtw"
+        />
+
+        <add id="Rtw_Core::rtwcore" title="RTW Core"
+             translate="title" module="Rtw_Core"
+             parent="Rtw_Core::Rtw" sortOrder="10"
+             resource="Rtw_Core::rtwcore" />
+
+        <add id="Rtw_Core::rtwconfig"
+             title="Configurations" module="Rtw_Core"
+             sortOrder="20" action="adminhtml/system_config/edit/section/rtwcore"
+             resource="Rtw_Core::rtwconfig"
+             parent="Rtw_Core::rtwcore"/>
+    </menu>
+</config>

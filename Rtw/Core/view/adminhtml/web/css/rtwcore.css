@@ -1,0 +1,4 @@
+
+.admin__menu .level-0.item-rtw > a:before {
+    content: url('../images/rtw.png');
+}
