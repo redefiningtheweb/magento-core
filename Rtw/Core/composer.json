@@ -1,5 +1,5 @@
 {
-  "name": "rtw/module-core",
+  "name": "redefiningtheweb/module-core",
   "description": "core module for other packages of RTW",
   "type": "magento2-module",
   "version": "1.0.0",
