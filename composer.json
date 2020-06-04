@@ -1,20 +1,20 @@
 {
-  "name": "redefiningtheweb/magento-core",
-  "description": "core module for other packages of RTW",
-  "type": "magento2-module",
-  "version": "1.0.0",
-  "authors": [
-    {
-      "name": "RTW",
-      "email": "support@redefiningtheweb.com",
-      "homepage": "https://redefiningtheweb.com",
-      "role": "Support"
+    "name": "redefiningtheweb/magento-core",
+    "description": "core module for other packages of RTW",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "RTW",
+            "email": "support@redefiningtheweb.com",
+            "homepage": "https://redefiningtheweb.com",
+            "role": "Support"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Rtw\\Core\\": ""
+        }
     }
-  ],
-  "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "Rtw\\Core\\": ""
-    }
-  }
 }

@@ -1,5 +1,21 @@
 <?xml version="1.0"?>
-
+<!--
+/**
+ * Redefining The Web
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Redefiningtheweb.com license that is
+ * available through the world-wide-web at this URL: https://redefiningtheweb.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * @category    Rtw
+ * @package     Rtw_Core
+ * @copyright   Copyright (c) Rtw (https://redefiningtheweb.com/)
+ * @license     https://redefiningtheweb.com/LICENSE.txt
+ */
+-->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Rtw_Core" setup_version="1.0.0" />
 </config>

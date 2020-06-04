@@ -1,4 +1,21 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * Redefining The Web
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Redefiningtheweb.com license that is
+ * available through the world-wide-web at this URL: https://redefiningtheweb.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * @category    Rtw
+ * @package     Rtw_Core
+ * @copyright   Copyright (c) Rtw (https://redefiningtheweb.com/)
+ * @license     https://redefiningtheweb.com/LICENSE.txt
+ */
+-->
 
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>

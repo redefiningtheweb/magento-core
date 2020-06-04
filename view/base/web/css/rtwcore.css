@@ -1,4 +1,20 @@
+/**
+ * Redefining The Web
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Redefiningtheweb.com license that is
+ * available through the world-wide-web at this URL: https://redefiningtheweb.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * @category    Rtw
+ * @package     Rtw_Core
+ * @copyright   Copyright (c) Rtw (https://redefiningtheweb.com/)
+ * @license     https://redefiningtheweb.com/LICENSE.txt
+ */
 
 .admin__menu .level-0.item-rtw > a:before {
+    content: attr(title) ": ";
     content: url('../images/admin-menu.png');
 }
